@@ -4,9 +4,9 @@
 
 ## 설치 및 실행
 
-[최신 설치 버전 v0.326-beta.1](https://github.com/BaeSean/cozy-nook-releases/releases/tag/v0.326-beta.1)
+[최신 설치 버전 v0.327-beta.1](https://github.com/BaeSean/cozy-nook-releases/releases/tag/v0.327-beta.1)
 
-[With-Mana-Setup.exe 다운로드](https://github.com/BaeSean/cozy-nook-releases/releases/download/v0.326-beta.1/With-Mana-Setup.exe)
+[With-Mana-Setup.exe 다운로드](https://github.com/BaeSean/cozy-nook-releases/releases/download/v0.327-beta.1/With-Mana-Setup.exe)
 
 1. Setup을 실행하고 설치 경로를 선택하세요. 기본값은 `%LOCALAPPDATA%\CozyNook.WithMana`입니다.
 2. 설치 완료 화면의 **게임 실행**을 누르세요.
@@ -22,7 +22,9 @@ Windows 64비트용이며 .NET 런타임을 포함합니다. YouTube에는 WebVi
 
 0.324 이하 ZIP 사용자는 Setup을 최초 한 번 설치해야 합니다. 0.325 자동 업데이트 설치본은 계속 업데이트할 수 있습니다. 업데이트는 기존 설치 경로를 임의로 옮기지 않습니다. 위치를 바꾸려면 게임을 종료하고 Setup에서 새 전용 폴더를 선택하세요.
 
-기존 치즈·구매 아이템·방·설정은 `%LOCALAPPDATA%\CozyNook\FourTail`에 유지됩니다. 이 저장 폴더는 삭제하지 마세요. `.nupkg`와 `releases.win.json`은 자동 업데이트용이며 직접 실행하지 않습니다.
+0.327부터 저장 위치는 `설치 폴더\Saves\FourTail\save.json`입니다. 기존 `%LOCALAPPDATA%\CozyNook\FourTail`의 저장·백업은 첫 실행 시 자동 복사되며 원본은 보존합니다. 새 위치에 저장이 있으면 덮어쓰지 않습니다. 업데이트가 교체하는 `current` 폴더 밖에 저장하므로 치즈·구매 아이템·방·설정이 유지됩니다.
+
+게임을 종료한 뒤 `Saves\FourTail` 폴더를 백업하세요. 설치 폴더 전체를 삭제하거나 제거하기 전에는 별도로 백업해 주세요. `.nupkg`와 `releases.win.json`은 자동 업데이트용이며 직접 실행하지 않습니다.
 
 설치 파일·폴더·게시자는 게임 이름으로 표시합니다. GitHub 주소에 나오는 소유 계정명은 유지됩니다. 코드 서명은 아직 적용되지 않았으며 다른 PC·DPI 환경 검증은 계속 필요합니다.
 
